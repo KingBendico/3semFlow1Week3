@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div id="1">Test 1</div>
+        <div id="2">Test 2</div>
+        <div id="3">Test 3</div>
+        
+        <button type="button" onclick="changeDiv()">Click Me!</button>
+
+       
+        
+<script>
+
+            var divs = document.getElementsByTagName("div");
+
+            for(var i = 0; i < divs.length; i++) {
+                if(i === 0) {
+                    divs[i].style.backgroundColor = "blue";
+                } else {
+
+                divs[i].style.backgroundColor = "red";
+            }
+        }
+        
+    function changeDiv() {
+  document.getElementById("1").style.backgroundColor = "red"; // Click on the checkbox
+  document.getElementById("2").style.backgroundColor = "green";// Click on the checkbox
+  document.getElementById("3").style.backgroundColor = "yellow"; // Click on the checkbox
+}
+            
+            
+        </script>
+        
+        <h1>Hello World! peeps</h1>
+    </body>
+</html>

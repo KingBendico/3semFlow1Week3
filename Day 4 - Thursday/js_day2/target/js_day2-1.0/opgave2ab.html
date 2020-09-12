@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Opgave 2 a og b</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style> .mydiv {width: 25px; height: 25px;background-color:yellow; margin:1px;} </style>
+    </head>
+    <body>
+        
+         <h3>Task a)</h3>
+         
+        <div id="outer"> 
+         <div id="1" class="mydiv" ></div>
+         <div id="2" class="mydiv" ></div>
+        </div>
+         
+             <h3>Task b)</h3>
+             
+        <div id="outer2" >
+            <div id="2">div2</div>
+            <div id="3">div3</div>
+            <div id="4">div4</div>
+            <div id="5">div5</div>
+            <div id="6">div6</div>
+            <div id="7">div7</div>
+            <div id="8">div8</div>
+            <div id="9">div9</div>
+            <div id="10">div10</div>
+            <div id="11">div11</div>
+        </div>
+             
+       
+        
+         <script>
+        
+         
+         let alldivs = document.getElementById("outer").addEventListener("click", function(e) {             
+             var target = e.target;
+             console.log("Hej med dig " + target.id);
+         });
+
+             var outer = document.getElementById("outer2");
+            outer.onclick = function (e) {
+                console.log("Clicked ");
+                 var me = this;   
+                var target = e.target;
+                console.log(me.id);
+                console.log(target.id);
+            };
+            
+    
+            
+         </script>
+        
+    </body>
+</html>
