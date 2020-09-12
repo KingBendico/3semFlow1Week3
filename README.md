@@ -9,16 +9,16 @@
 
 ## Day 1  - Monday
 
-* ... (Completed)
+* All exercises done (Completed)
 
 
 ## Day 2 - Tuesday 
-* ... (Completed)
+* All exercises done (Completed)
 
 
 ## Day 3 - Wednesday
-* ... (Completed)
+* All exercises done (Completed)
 
 ## Day 4 - Thursday
 
-* ... (Completed)
+* Exercise 5 not 100% done (incomplete, 95% done)
