@@ -21,4 +21,4 @@
 
 ## Day 4 - Thursday
 
-* Exercise 5 not 100% done (incomplete, 95% done)
+* All exercises done (complete)
